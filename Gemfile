@@ -40,9 +40,10 @@ group :development do
 end
 
 group :test do
+  gem 'launchy'
 
-  gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
-
   gem 'webdrivers'
+
+  gem 'capybara', '>= 2.15' # document.querySelector
 end

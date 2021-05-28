@@ -3,6 +3,8 @@
     <div class="col-md-6">
       <h1>Awesome Products</h1>
 
+      <p>Products found: <%= @products.count %></p>
+
       <% @products.each do |product| %>
         <div class="card-product mt-2 mb-2">
           <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
